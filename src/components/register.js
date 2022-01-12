@@ -2,7 +2,7 @@ import leftimg from "./img/leftimg.png"
 import React,{useState} from "react"
 import Nav from "./Nav"
 // import axios from "axios"
-import { signUp,authenticate,isAuthenticated } from "./authcalls"
+import { signUp,isAuthenticated } from "./authcalls"
 import { Link, Redirect } from "react-router-dom"
 
 const Register = () => {

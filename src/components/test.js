@@ -18,7 +18,7 @@ const Test = ({history}) => {
         checkAuth();
         getUserDetails();
         console.log("API:",process.env.REACT_APP_API);
-    }, [])
+    }, )
     const SetOption = (qno,opt) =>{
         console.log("API:",process.env.DB);
 

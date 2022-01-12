@@ -1,7 +1,6 @@
 import React,{useState} from "react"
 import Nav from "./Nav"
 import { isAuthenticated } from "./authcalls"
-import { Redirect } from "react-router-dom"
 import { Scrollbars } from 'react-custom-scrollbars-2';
 
 const Motivation = () => {
