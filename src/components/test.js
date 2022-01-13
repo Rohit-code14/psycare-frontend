@@ -21,13 +21,13 @@ const Test = ({history}) => {
     }, [])
     const SetOption = (qno,opt) =>{
 
-        console.log("Qno : ",qno);
+        // console.log("Qno : ",qno);
         dummy = answers
         dummy[qno] = opt
         setAnswers(dummy)
         // console.log(answers);
     }
-    const calcScoreAndSubmit = () =>{
+    const calcScoreAndSubmit = async () =>{
         const correct = ['d','d','c','d','a','b','c','d','a','b']
         let marks = 0
         for (let index = 0; index < answers.length; index++) {
@@ -37,7 +37,7 @@ const Test = ({history}) => {
             }   
         }
         // console.log("Calculated mark: ",marks);
-        const responce = SetScore(marks)
+        const responce = await SetScore(marks)
         // console.log("Submit responce: ",responce);
         if(!marks){
             return history.push("/test")
