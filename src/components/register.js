@@ -15,7 +15,7 @@ const Register = () => {
     const checkAuth = async() =>{   
         if( localStorage.getItem("token")){
             setIsAuth(await isAuthenticated()? true : false)
-            console.log(isAuth);
+            // console.log(isAuth);
             return isAuth
         }
         else{
@@ -33,7 +33,7 @@ const Register = () => {
                 setError(data.err)
             }
             else{
-                console.log(data);
+                // console.log(data);
                 setEmail("")
                 setName("")
                 setPassword("")
