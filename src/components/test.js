@@ -593,38 +593,3 @@ const Test = ({history}) => {
 }
 
 export default Test;
-
-                // {/* <h2>How are you feeling?</h2>
-                // <ul className="options" style={{padding:"120"}}>
-                //     <li className="ans" onClick={() => SetOption(0,'a')}>
-                //     <label for="opt" onClick={() => SetOption(0,'a')} type="radio" name="opt" id="opt" >
-                //     <input  type="radio" name="opt" id="opt"  />Happy
-                //         Happy</label>
-                //     </li>
-                //     <li className="ans" >
-                //     <label for="opt" onClick={() => SetOption(0,'b')}>
-                //     <input onClick={() => SetOption(0,'b')} type="radio" name="opt" id="opt"  />
-                //         Happy</label>
-                //     </li>
-                //     <li className="ans" >
-                //     <label for="opt">
-                //     <input onClick={() => SetOption(0,'c')} type="radio" name="opt" id="opt"  />
-                //         Happy</label>
-                //     </li>
-                //     <li className="ans" >
-                //     <label for="opt">
-                //     <input onClick={() => SetOption(0,'d')} type="radio" name="opt" id="opt"  />
-                //         Happy</label>
-                //     </li>
-                //     <RadioGroup  vertical>
-                //     <RadioButton value="apple" className="radiobtn">
-                //         Apple
-                //     </RadioButton>
-                //     <RadioButton value="orange"  >
-                //         Orange   
-                //     </RadioButton>
-                //     <RadioButton value="melon" style={{padding:"100"}}>
-                //         Melon
-                //     </RadioButton>
-                //     </RadioGroup>
-                // </ul> */}
