@@ -16,7 +16,7 @@ const Low = ({history}) =>{
             await getUserDetails();
         }
         getuserdetailsapicall()
-    }, )
+    },[] )
     // const checkAuth = async() =>{   
     //     if( localStorage.getItem("token")){
     //         setIsAuth(await isAuthenticated()? true : false)
